@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body {
+	font-family: 'Noto Sans Japanese', sans-serif;
+}
+#in{
+    border: 0px solid #000;
+    background-color: #fff;
+    width: 80vw;
+    font-size: 5vh;
+    border-radius: 0.5vw;
+    height: 8vh;
+
+}
+#in:focus{
+    border: 0px solid #000;
+    background-color: #fff;
+    width: 80vw;
+    font-size: 5vh;
+    border-radius: 0.5vw;
+    height: 8vh;
+    outline: none;
+}
+#div1{
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+#div2{
+    position: absolute;
+    top: 80vh;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+#out{
+    border: 0px solid #000;
+    background-color: rgb(235, 235, 235);
+    width: 80vw;
+    font-size: 5vh;
+    border-radius: 0.5vw;
+    height: 8vh;
+
+}
+#out:focus{
+    border: 0px solid #000;
+    background-color: rgb(235, 235, 235);
+    width: 80vw;
+    font-size: 5vh;
+    border-radius: 0.5vw;
+    height: 8vh;
+    outline: none;
+}
+body{
+    text-align: center;
+    background-color: rgb(195, 231, 198);
+}
+
+#btn{
+    position: absolute;
+    top: 63vh;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border: 0pc solid #000;
+    border-radius: 0.5vw;
+    font-size: 5vh;
+    width: 10vw;
+    background-color: rgb(87, 145, 252);
+    color: #fff;
+    cursor: pointer;
+    transition: all 100ms;
+}
+#btn:hover{
+    position: absolute;
+    top: 63vh;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border: 0pc solid #000;
+    border-radius: 0.5vw;
+    font-size: 5vh;
+    width: 10vw;
+    background-color: rgb(116, 165, 255);
+    color: #fff;
+    cursor: pointer;
+}
+#btn:active{
+    position: absolute;
+    top: 63vh;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border: 0pc solid #000;
+    border-radius: 0.5vw;
+    font-size: 5vh;
+    width: 10vw;
+    background-color: rgb(61, 129, 255);
+    color: #fff;
+    cursor: pointer;
+}
+#angoukey{
+    position: absolute;
+    top: 50vh;
+    left: 35vw;
+    transform: translateY(-50%) translateX(-50%);
+    border: 0px solid #000;
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    font-size: 5vh;
+    border-radius: 0.5vw;
+    height: 8vh;
+    transition: all 100ms;
+}
+#angoukey:focus{
+    border: 0px solid #000;
+    background-color: #fff;
+    width: 50vw;
+    font-size: 5vh;
+    border-radius: 0.5vw;
+    height: 8vh;
+    outline: none;
+}
+
+::placeholder {
+    color: rgb(177, 177, 177);
+}
+
+#check{
+    position: absolute;
+    top: 64vh;
+    left: 80vw;
+    transform: translateY(-50%) translateX(-50%);
+    width: 20vw;
+    height: 30vh;
+    text-align: center;
+    border-radius: 1vw;
+    background-color: rgb(255, 255, 255);
+    padding-top: 3vh;
+    padding-bottom: 0vh;
+    z-index: 1000;
+}
+
+
+.check{
+    cursor: pointer;
+    border: 0px solid #000;
+    border: 0vh solid rgb(54, 134, 255);
+    background-color: rgb(123, 185, 255);
+    padding: 1vh;
+    margin: 1vh;
+    
+    margin-top: 1vh;
+    border-radius: 0.8vh;
+    user-select: none;
+    transition: all 100ms;
+}
+input:checked + label {
+    cursor: pointer;
+    border: 1vh solid rgb(54, 134, 255);
+    background-color: rgb(123, 185, 255);
+    padding: 1vh;
+    margin: 1vh;
+    border-radius: 0.8vh;
+    user-select: none;
+    color: #fff;
+}
+
+
+#check1{
+    display: none;
+}
+#check2{
+    display: none;
+}
+#check3{
+    display: none;
+}
+#check4{
+    display: none;
+}
+
+.siyoukanou{
+    position: absolute;
+    top: 53vh;
+    left: 80vw;
+    transform: translateY(-50%) translateX(-50%);
+    width: 30vw;
+    height: 30vh;
+}
+
+.h22{
+    position: absolute;
+    top: 40vh;
+    left: 33vw;
+    transform: translateY(-50%) translateX(-50%);
+}

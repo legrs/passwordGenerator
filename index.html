@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>パスワード生成</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>サイトホームページURLと暗号鍵からパスワードを生成します。</h1>
+    <h1>暗号鍵だけ覚えておけばパスワードを覚える必要がなくなります。</h1>
+    <div id="div1">
+        <h2>サイトURL（長すぎると、ページが応答しなくなる場合があります）</h2>
+        <input type="text" id="in" value="" placeholder="URL（70文字まで）" maxlength="70"><br>
+    </div>
+    <h2 class="h22">暗号鍵（1~999999）</h2>
+    <input type="tel" id="angoukey" value="" placeholder="暗号鍵（半角算用数字6桁まで）" maxlength="6"><br>
+    <h2 class="siyoukanou">除外する文字を選択</h2>
+    <div id="check">
+        <input type="checkbox" id="check1" >
+        <label for="check1" class="check">小文字アルファベット</label><br><br>
+        <input type="checkbox" id="check2" >
+        <label for="check2" class="check">大文字アルファベット</label><br><br>
+        <input type="checkbox" id="check3" >
+        <label for="check3" class="check">数字</label><br><br>
+        <input type="checkbox" id="check4" >
+        <label for="check4" class="check">ハイフン</label><br><br>
+    </div>
+
+    <button id="btn">生成</button>
+    <div id="div2" style="z-index: 1;">
+        <h2 >パスワード</h2>
+        <input type="text" id="out" value="" placeholder="結果がここに出力されます。" disabled="disabled" pointer-events:suto;>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
